@@ -11,7 +11,7 @@ function celsiusConverter() {
 
     //Processing
     let celsTemp = (fahrTemp-32)*(5/9);
-    let sentence = fahrTemp + '°F is equal to ' + celsTemp + '°C.'
+    let sentence = fahrTemp + '°F is equal to ' + celsTemp + '°C.';
 
     //Output
     document.getElementById('output-title').innerHTML = 'Output:';
